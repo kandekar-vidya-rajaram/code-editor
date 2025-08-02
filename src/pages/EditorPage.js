@@ -25,7 +25,6 @@ const EditorPage = () => {
         toast.error('socket connection failed,try again later.');
         reactNavigator('/');
       }
-
       socketRef.current.emit(ACTIONS.JOIN,{
         roomId,
         username:location.state?.username,
