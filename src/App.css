@@ -1,0 +1,160 @@
+.homePageWrapper{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+
+}
+.formWrapper{
+  background: rgb(227, 109, 5);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+
+}
+footer{
+  position: fixed;
+  bottom:0;
+
+}
+
+footer a{
+  color: #4ee884;
+
+
+}
+.inputGroup{
+display: flex;
+flex-direction: column;
+
+
+}
+
+.main_label{
+  margin-bottom: 20px;
+  margin-top: 0;
+
+}
+.homePageLogo{
+  height: 80px;
+  margin-bottom: 30px;
+
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinbtn,.leavebtn {
+  background: #4aed88;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinbtn:hover,.leavebtn:hover{
+  background: #2b824c;
+
+}
+
+.createInfo{
+  margin:0 auto;
+  margin-top: 20px;
+
+}
+
+.createNewBtn
+{
+  color:#4aed88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+.createNewBtn:hover{
+  color: #368654;
+  border-color:#368654;
+}
+
+.mainwrap{
+  display: grid;
+  grid-template-columns: 238px 1fr;
+ 
+
+}
+
+.aside{
+  background: #1c1e29;
+  padding: 16px;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+}
+.asideinner{
+  flex: 1;
+  
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+
+  
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  display: inline-flex;
+  flex-direction:column;
+  font-weight: bold;
+ 
+}
+
+.username{
+  margin-top: 10px;
+}
+
+.logs{
+  border-bottom: 1px solid #424242;
+}
+
+
+.logImage{
+  height: 60px;
+}
+
+.leavebtn{
+  width: 100%;
+  margin-top:20px ;
+  background: #4aed88;
+}
+
+.cm-editor{
+  min-height: calc(100vh-10px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top:20px;
+}
+
+
